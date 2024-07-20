@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "resource_pack_trident_model",
+  "version": "${version}",
+  "name": "Resource Pack Trident Model",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/resource_pack_trident_model/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.userofbricks.resource_pack_trident_model.ResourcePackTridentModel"
+    ]
+  },
+  "mixins": [
+    "resource_pack_trident_model.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

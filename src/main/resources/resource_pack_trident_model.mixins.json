@@ -4,7 +4,9 @@
   "package": "com.userofbricks.resource_pack_trident_model.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "PersistentProjectileEntityMixin"
+    "EntityInvoker",
+    "PersistentProjectileEntityMixin",
+    "TridentItemMixin"
   ],
   "client": [
     "ItemRendererMixin",

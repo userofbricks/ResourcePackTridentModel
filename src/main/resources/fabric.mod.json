@@ -10,6 +10,9 @@
   "icon": "assets/resource_pack_trident_model/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "com.userofbricks.resource_pack_trident_model.ResourcePackTridentModelClient"
+    ],
     "main": [
       "com.userofbricks.resource_pack_trident_model.ResourcePackTridentModel"
     ]
